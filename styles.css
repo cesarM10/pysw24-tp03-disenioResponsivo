@@ -1,0 +1,38 @@
+header {
+  
+}
+
+section h3 {
+  text-align: center;
+  text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
+}
+.nav-link {
+  transition: transform 0.3s ease;
+}
+.nav-link:hover {
+  color: rgb(46, 209, 95);
+  transform: scale(1.1);
+}
+
+.active {
+  color: rgb(179, 255, 0) !important;
+}
+
+.container-fluid {
+  padding-left: 2em;
+}
+
+.contenedor-cards-mod {
+  display: flex;
+}
+
+.card {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  box-shadow: 10px 10px 12px 3px rgba(0, 0, 0, 0.5);
+  height: 47%;
+}
+
+.aside img {
+  width: 100%;
+  height: max-content;
+}
