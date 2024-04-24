@@ -1,0 +1,24 @@
+.img-columna img{
+    width: 30px;
+}
+
+.img-fila img{
+    width: 30px;
+}
+
+.imagen-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-texto-h{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.formulario{
+    height: 100vh;
+}
