@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="style-horoscopo.css">
+    <link rel="stylesheet" href="style-horoscopo.css" />
     <title>PB - Horoscopo</title>
   </head>
   <body>
@@ -117,36 +117,294 @@
       </nav>
     </header>
 
-    <h2>Signos del Zodiaco</h2>
-    <section class="row">
-      <div class="col-md-4 col-6 col-sm-6 bg-success">
-        <h2>card1</h2>
-        <h2>card2</h2>
-        <h2>card3</h2>
-        <h2>card4</h2>
+    <section class="row justify-content-center container-fluid">
+      <h3 class="fst-italic text-bg-dark fs-3">Seleccione un signo</h3>
+      <div class="col-md-4 col-6 col-sm-6 columna">
+        <!-- Primera columna de botones -->
+        <div class="btn-toolbar" role="toolbar">
+          <div
+            class="btn-group-vertical me-2"
+            role="group"
+            aria-label="First group"
+          >
+            <!-- Aries -->
+            <button
+              type="button"
+              class="btn btn-dark boton"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+            >
+              <div class="imagen-texto-h">
+                <div class="img-fila">
+                  <img src="../img/signos/aries.png" alt="aries" />
+                </div>
+                <div class="texto-fila fs-3">
+                  <p>Aries</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Tauro -->
+            <button
+              type="button"
+              class="btn btn-dark boton"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+            >
+              <div class="imagen-texto-h">
+                <div class="img-fila">
+                  <img src="../img/signos/tauro.png" alt="tauro" />
+                </div>
+                <div class="texto-fila fs-3">
+                  <p>Tauro</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Geminis -->
+            <button
+              type="button"
+              class="btn btn-dark boton"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+            >
+              <div class="imagen-texto-h">
+                <div class="img-fila">
+                  <img src="../img/signos/geminis.png" alt="geminis" />
+                </div>
+                <div class="texto-fila fs-3">
+                  <p>Geminis</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Cancer -->
+            <button
+              type="button"
+              class="btn btn-dark boton"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+            >
+              <div class="imagen-texto-h">
+                <div class="img-fila">
+                  <img src="../img/signos/cancer.png" alt="cancer" />
+                </div>
+                <div class="texto-fila fs-3">
+                  <p>Cancer</p>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4 col-6 col-sm-6 bg-danger">
-        <h2>card5</h2>
-        <h2>card6</h2>
-        <h2>card7</h2>
-        <h2>card8</h2>
+      <div class="col-md-4 col-6 col-sm-6 columna">
+        <!-- Segunda columna de botones -->
+        <div class="btn-toolbar" role="toolbar">
+          <div
+            class="btn-group-vertical me-2"
+            role="group"
+            aria-label="First group"
+          >
+            <!-- Leo -->
+            <button
+              type="button"
+              class="btn btn-dark boton"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+            >
+              <div class="imagen-texto-h">
+                <div class="img-fila">
+                  <img src="../img/signos/leo.png" alt="leo" />
+                </div>
+                <div class="texto-fila fs-3">
+                  <p>Leo</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Virgo -->
+            <button
+              type="button"
+              class="btn btn-dark boton"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+            >
+              <div class="imagen-texto-h">
+                <div class="img-fila">
+                  <img src="../img/signos/virgo.png" alt="virgo" />
+                </div>
+                <div class="texto-fila fs-3">
+                  <p>Virgo</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Libra -->
+            <button
+              type="button"
+              class="btn btn-dark boton"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+            >
+              <div class="imagen-texto-h">
+                <div class="img-fila">
+                  <img src="../img/signos/libra.png" alt="libra" />
+                </div>
+                <div class="texto-fila fs-3">
+                  <p>Libra</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Escorpio -->
+            <button
+              type="button"
+              class="btn btn-dark boton"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+            >
+              <div class="imagen-texto-h">
+                <div class="img-fila">
+                  <img src="../img/signos/escorpio.png" alt="escorpio" />
+                </div>
+                <div class="texto-fila fs-3">
+                  <p>Escorpio</p>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4 col-6 col-sm-6 bg-primary">
-        <h2>card9</h2>
-        <h2>card10</h2>
-        <h2>card11</h2>
-        <h2>card12</h2>
+      <div class="col-md-4 col-6 col-sm-6 columna">
+        <!-- Tercera columna de botones -->
+        <div class="btn-toolbar" role="toolbar">
+          <div
+            class="btn-group-vertical me-2"
+            role="group"
+            aria-label="First group"
+          >
+            <!-- Sagitario -->
+            <button
+              type="button"
+              class="btn btn-dark boton"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+            >
+              <div class="imagen-texto-h">
+                <div class="img-fila">
+                  <img src="../img/signos/sagitario.png" alt="sagitario" />
+                </div>
+                <div class="texto-fila fs-3">
+                  <p>Sagitario</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Capricornio -->
+            <button
+              type="button"
+              class="btn btn-dark boton"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+            >
+              <div class="imagen-texto-h">
+                <div class="img-fila">
+                  <img src="../img/signos/capricornio.png" alt="capricornio" />
+                </div>
+                <div class="texto-fila fs-3">
+                  <p>Capricornio</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Acuario -->
+            <button
+              type="button"
+              class="btn btn-dark boton"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+            >
+              <div class="imagen-texto-h">
+                <div class="img-fila">
+                  <img src="../img/signos/acuario.png" alt="acuario" />
+                </div>
+                <div class="texto-fila fs-3">
+                  <p>Acuario</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Piscis -->
+            <button
+              type="button"
+              class="btn btn-dark boton"
+              data-bs-toggle="collapse"
+              data-bs-target=".multi-collapse"
+              aria-expanded="false"
+            >
+              <div class="imagen-texto-h">
+                <div class="img-fila">
+                  <img src="../img/signos/piscis.png" alt="piscis" />
+                </div>
+                <div class="texto-fila fs-3">
+                  <p>Piscis</p>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="row">
+    <section class="row container-fluid">
       <div class="col-12">
-        <h2>dia</h2>
+        <div class="collapse multi-collapse sectionResultados m-2" id="multiCollapseExample1">
+          <div class="card card-body caja-signos text-bg-dark">
+            <div class="caja-texto">
+              <h3>Aries - Dia</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+                earum laboriosam hic consequuntur commodi id veniam impedit
+                laudantium et vitae eveniet, atque qui a ad sint eum doloremque
+                aliquam minus.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quod exercitationem dolores error. Voluptatibus, quisquam necessitatibus. A minus laudantium corporis illum, dignissimos debitis rem, voluptatum saepe ea, dolores eius qui?
+              </p>
+            </div>
+
+            <div class="imagenH">
+              <img src="../img/signos/aries.png" alt="Img Signo" />
+            </div>
+          </div>
+        </div>
       </div>
       <div class="col-12">
-        <h2>mes</h2>
+        <div class="collapse multi-collapse sectionResultados m-2" id="multiCollapseExample2">
+          <div class="card card-body caja-signos text-bg-dark">
+            <div class="caja-texto ">
+              <h3>Aries - Mes</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus tempore repellat sint a harum maiores quibusdam qui. Modi est at iusto ipsam corporis perferendis quis tenetur rem! Quidem, quae?
+              </p>
+            </div>
+
+            <div class="imagenH">
+              <img src="../img/signos/aries.png" alt="Img Signo" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

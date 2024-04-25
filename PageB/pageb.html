@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="style-conversor.css">
     <title>PB - Cotizacion de divisas</title>
@@ -62,9 +62,9 @@
 
     <section class="row">
       
-      <div class="col-md-8 d-none d-md-block col-lg-8 bg-warning table-responsive">
-        <h2>Conversor de Divisas</h2>
-        <table class="table table-hover table-dark table-bordered border-warning ">
+      <div class="col-md-8 d-none d-md-block col-lg-8 bg-warning table-responsive"> <!--Podria agregar d-md-table para que el formulario al no poder comprimir mas a la tabla, se ubique abajo de la misma-->
+        <h3>Conversor de Divisas</h3>
+        <table class="table table-hover table-dark table-bordered border-warning">
           <thead>
             <tr>
               <th scope="col"></th>
@@ -340,14 +340,14 @@
       </div>
 
       <div class="col-md-4 col-sm-12 col-lg-4 bg-primary formulario">
-        <h2>Formulario</h2>
-        <form>
+        <h3 class="text-bg-primary">Conversor de Divisas</h3>
+        <form class="text-bg-primary">
           <div class="mb-3">
-            <label for="cantidad" class="form-label">Cantidad:</label>
-            <input type="number" class="form-control" id="cantidad" placeholder="Ingrese la cantidad" required>
+            <label for="cantidad" class="form-label text-bg-primary">Cantidad:</label>
+            <input type="number" class="form-control" id="cantidad" placeholder="Ingrese la cantidad">
           </div>
           
-          <div class="mb-3">
+          <div class="mb-3" >
             <label for="origen">De:</label>
             <select class="form-select" aria-label="Default select example">
               <option selected>Seleccione moneda de origen</option>
@@ -359,7 +359,7 @@
 
           <div class="mb-3">
             <label for="destino">A:</label>
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" aria-label="Default select example"> 
               <option selected>Seleccione moneda de destino</option>
               <option value="1">ARS</option>
               <option value="2">BTC</option>
@@ -370,11 +370,11 @@
           <div class="mb-3">
             <textarea class="form-control" id="floatingTextarea" disabled>813.555</textarea>
         </div>
-          <button type="submit" class="btn btn-warning">Convertir</button>
+          <button type="submit" class="btn bg-warning">Convertir</button>
         </form>
       </div>
     </section>
 
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

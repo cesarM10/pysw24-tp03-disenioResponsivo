@@ -1,0 +1,62 @@
+body{
+    background-image: url(../img/british-columbia-2382640_1280.jpg);
+}
+.imagen-texto-h{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.img-fila{
+    width: 50%;
+}
+.img-fila img{
+    width: 50px;
+}
+
+.boton{
+    margin: 0.5em;
+    border: 0;
+    /* border-radius: 0; */
+    background-color: rgba(32, 32, 32, 0.281);
+    width: 30vw!important;
+    height: 4em;
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.caja-signos{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 80vw;
+    height: auto;
+    gap: 10px;
+}
+
+.caja-texto{
+    width: 80%;
+    height: 100%;
+    padding: 0 2%;
+}
+
+.imagenH{
+    width: 20%;
+}
+.imagenH img{
+    width: 100%;
+}
+ .sectionResultados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+ }

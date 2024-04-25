@@ -34,8 +34,13 @@ section h3 {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   box-shadow: 10px 10px 12px 3px rgba(0, 0, 0, 0.5);
   height: 47%;
+  transition: transform 0.3s ease;
 }
 
+.card:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
 .aside{
   height: 100vh;
 }
